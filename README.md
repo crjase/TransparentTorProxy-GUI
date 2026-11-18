@@ -6,7 +6,7 @@ A sleek, Unc0ver-inspired desktop controller for [TransparentTorProxy (`ttp`)](h
 
 | Main View | Settings (Session & Watchdog) | Settings (CLI Flags & App) |
 | :---: | :---: | :---: |
-| [docs/preview-main.png] | [docs/preview-settings-top.png] | [docs/preview-settings-bottom.png] |
+| ![preview main](docs/preview-main.png) | ![preview settings top](docs/preview-settings-top.png) | ![preview settings bottom](docs/preview-settings-bottom.png) |
 
 ## Features
 
