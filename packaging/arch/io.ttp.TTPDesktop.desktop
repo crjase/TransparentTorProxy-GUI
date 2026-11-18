@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=TTP Desktop
+GenericName=Tor Proxy Controller
+Comment=Control TransparentTorProxy sessions and check Tor routing
+Exec=ttp-desktop
+TryExec=ttp-desktop
+Icon=io.ttp.TTPDesktop
+Terminal=false
+Categories=Network;
+Keywords=Tor;Proxy;TransparentTorProxy;nftables;
+StartupNotify=true
+StartupWMClass=io.ttp.TTPDesktop

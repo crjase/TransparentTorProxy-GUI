@@ -1,0 +1,21 @@
+[package]
+name = "ttp-desktop"
+version = "0.4.4"
+description = "Desktop controls for TransparentTorProxy"
+edition = "2024"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+gdk = "0.18"
+gio = "0.18"
+tauri = { version = "2", features = ["tray-icon", "image-png"] }
+tauri-plugin-shell = { version = "2", optional = true }
+tauri-plugin-dialog = { version = "2", optional = true }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+strip-ansi-escapes = "0.2"
+time = { version = "0.3", features = ["parsing"] }
+tokio = { version = "1", features = ["io-util", "macros", "process", "sync", "time"] }
+zeroize = "1"
